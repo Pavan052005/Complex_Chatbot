@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sports Complex assistant
 
 A small HTML, CSS, and JavaScript chat app for cricket, football, and swimming information, schedules, and session bookings. Ask Gemini about sports rules, terms, dimensions, and yard-to-meter measurements; the booking flow checks and saves selected slots in your browser.
@@ -22,3 +23,7 @@ A small HTML, CSS, and JavaScript chat app for cricket, football, and swimming i
 The app sends chat text to the local `/api/chat` endpoint. The Node.js server reads `GEMINI_API_KEY` from `.env`, calls Gemini using the Google GenAI SDK, and returns the reply to the browser. The key is not sent to the browser. The default model is `gemini-3.5-flash`; if it is busy or unavailable, the server automatically tries `gemini-3.5-flash-lite` and `gemini-3.6-flash`. Set `GEMINI_MODEL` in `.env` to choose another primary model available to your API key.
 
 Without a configured API key, the schedule and booking UI still loads, but AI chat requests show a setup error. Bookings are stored in this browser only; this demo does not create reservations with a real sports facility.
+=======
+# Complex_Chatbot
+Created Chatbot and to host it on AWS cloud to learn how AWS works 
+>>>>>>> 16d101f8836bccdec471cefb3cec43e0bd1b92da
